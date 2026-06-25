@@ -8,6 +8,8 @@
 
 ## 🎥 Demo
 
+<div align="center">
+
 <table>
   <tr>
     <td align="center" width="50%">First 30 seconds (real-time)</td>
@@ -18,6 +20,8 @@
     <td align="center" valign="top"><a href="./Demo_hackathon.mp4"><img src="./media/demo-overview.gif" width="280" alt="SahuliatAI — full journey overview"></a></td>
   </tr>
 </table>
+
+</div>
 
 ▶️ **[Watch the full demo with audio — `Demo_hackathon.mp4`](./Demo_hackathon.mp4)** (~8 min)
 
