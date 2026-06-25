@@ -5,6 +5,9 @@ node_modules
 *.log
 .DS_Store
 
+# Claude Code
+.claude/
+
 # Never commit Android signing artifacts
 *.keystore
 *.jks
