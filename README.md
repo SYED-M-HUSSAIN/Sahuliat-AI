@@ -8,22 +8,18 @@
 
 ## 🎥 Demo
 
-[![Watch the SahuliatAI demo](./media/demo.gif)](./Demo_hackathon.mp4)
+<table>
+  <tr>
+    <td align="center" width="50%">First 30 seconds (real-time)</td>
+    <td align="center" width="50%">Full journey (sped-up overview)</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><a href="./Demo_hackathon.mp4"><img src="./media/demo.gif" width="280" alt="SahuliatAI — real-time start"></a></td>
+    <td align="center" valign="top"><a href="./Demo_hackathon.mp4"><img src="./media/demo-overview.gif" width="280" alt="SahuliatAI — full journey overview"></a></td>
+  </tr>
+</table>
 
-*Animated preview (sped-up). ▶️ **[Watch the full demo with audio — `Demo_hackathon.mp4`](./Demo_hackathon.mp4)** (~8 min)*
-
-<details>
-<summary>Want the video to play <em>inline</em> on GitHub?</summary>
-
-GitHub only renders an inline player for videos uploaded as **attachment assets** — a relative path or a `/raw/…` repo URL will **not** auto-embed. To get an inline player, edit this README in the GitHub web UI and **drag `Demo_hackathon.mp4` into the editor**; GitHub uploads it and inserts an asset URL like:
-
-```
-https://github.com/user-attachments/assets/<id>
-```
-
-Put that bare URL on its own line (with a blank line above it) right here, and it will render as a player. The clickable poster above works everywhere in the meantime.
-
-</details>
+▶️ **[Watch the full demo with audio — `Demo_hackathon.mp4`](./Demo_hackathon.mp4)** (~8 min)
 
 ---
 
@@ -580,7 +576,7 @@ pnpm deploy:prod        # production deploy
 ```
 .
 ├── Demo_hackathon.mp4      # demo walkthrough video (linked above)
-├── media/                  # README assets (demo.gif preview)
+├── media/                  # README assets (demo.gif + demo-overview.gif)
 ├── product/                # the Next.js 16 application
 │   ├── app/                # App Router: (customer) (provider) (trace) auth/ api/
 │   ├── components/         # UI by domain: chat, booking, home, map, provider, …
@@ -592,6 +588,14 @@ pnpm deploy:prod        # production deploy
 ├── scope/                  # product brief: features, user journeys, data model
 └── tech_plan/              # per-feature implementation notes + eval checklists
 ```
+
+---
+
+## Contributors
+
+- **Syed Muhammad Hussain**
+- **Adeel Akram**
+- **Daniyal Sandeelo**
 
 ---
 
