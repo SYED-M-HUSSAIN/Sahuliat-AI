@@ -8,15 +8,20 @@
 
 ## 🎥 Demo
 
-▶️ **[Watch the demo — `Demo_hackathon.mp4`](./Demo_hackathon.mp4)**
+[![Watch the SahuliatAI demo](./media/demo.gif)](./Demo_hackathon.mp4)
 
-<!-- On github.com the bare asset URL below renders as an inline video player once the repo is pushed. -->
-https://github.com/SYED-M-HUSSAIN/Sahuliat-AI/raw/main/Demo_hackathon.mp4
+*Animated preview (sped-up). ▶️ **[Watch the full demo with audio — `Demo_hackathon.mp4`](./Demo_hackathon.mp4)** (~8 min)*
 
 <details>
-<summary>Video not playing inline?</summary>
+<summary>Want the video to play <em>inline</em> on GitHub?</summary>
 
-GitHub renders an inline player from the raw asset URL above only after the repo is pushed to GitHub. Locally, or on other Markdown renderers, use the **[direct link to `Demo_hackathon.mp4`](./Demo_hackathon.mp4)**.
+GitHub only renders an inline player for videos uploaded as **attachment assets** — a relative path or a `/raw/…` repo URL will **not** auto-embed. To get an inline player, edit this README in the GitHub web UI and **drag `Demo_hackathon.mp4` into the editor**; GitHub uploads it and inserts an asset URL like:
+
+```
+https://github.com/user-attachments/assets/<id>
+```
+
+Put that bare URL on its own line (with a blank line above it) right here, and it will render as a player. The clickable poster above works everywhere in the meantime.
 
 </details>
 
@@ -575,6 +580,7 @@ pnpm deploy:prod        # production deploy
 ```
 .
 ├── Demo_hackathon.mp4      # demo walkthrough video (linked above)
+├── media/                  # README assets (demo.gif preview)
 ├── product/                # the Next.js 16 application
 │   ├── app/                # App Router: (customer) (provider) (trace) auth/ api/
 │   ├── components/         # UI by domain: chat, booking, home, map, provider, …
