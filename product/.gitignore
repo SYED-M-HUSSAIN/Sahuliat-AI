@@ -1,0 +1,28 @@
+node_modules
+.next
+.next-build
+out
+.env
+.env.local
+.env.prod
+.env.preview
+.env*.local
+.vercel
+*.log
+.DS_Store
+.turbo
+coverage
+.tsbuildinfo
+next-env.d.ts
+
+# Never commit Android signing artifacts
+*.keystore
+*.jks
+signing-key-info.txt
+signing.keystore
+
+# Generated at build time from env vars
+public/.well-known/assetlinks.json
+
+# Claude Code
+.claude/
